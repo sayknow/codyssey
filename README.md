@@ -50,11 +50,14 @@ RSS 모듈을 트리거로 사용하여 특정 시간에 사이트에서 기사�
 Gemini로 요약하여 노션 데이터베이스에 기록되는 워크플로우를 작성하였다. 
  
 
-![skedule_module](B2-2/skedule)
+![skedule_module](B2-2/skedule.png)
+
 
 스케줄 설정에서는 트리거 모듈이 하루마다 특정한 시간에 작동하도록 설정하였고 
 
- ![RSS_module](B2-2/RSS_module)
+
+ ![RSS_module](B2-2/RSS_module.png)
+
 
 RSS 모듈에서는 최신성 있는 뉴스를 수집하는 만큼 너무 많은 정보가 수집되지 않도록 
 최대 3개의 뉴스를 수집하도록 설정하였고 이후 수집하는 시간이나 기사의 양을  
@@ -62,7 +65,7 @@ RSS 모듈에서는 최신성 있는 뉴스를 수집하는 만큼 너무 많은
 
  
 
- ![filter](B2-2/filter)
+ ![filter](B2-2/filter.png)
 
  
 
@@ -72,19 +75,19 @@ RSS 모듈에서는 최신성 있는 뉴스를 수집하는 만큼 너무 많은
 다음 모듈로 전송된다. 
 
  
-![Gemini_module](B2-2/gemini_module)
+![Gemini_module](B2-2/gemini_module.png)
 
 Gemini 모듈에서는 프롬프트를 통해 기사의 내용을 3줄요약 하며 부가적으로 
 기사의 성격을 분류한다. (※ 보너스 과제) 
 
  
-![notion_module](B2-2/notion_module)
+![notion_module](B2-2/notion_module.png)
  
 
 노션 모듈에서 요약된 기사 내용과 기사 제목, 원문 링크 등 필요한 내용들을  
 미리 만들어둔 노션 데이터 베이스의 구조에 배치 합니다. 
 
-![retry_module](B2-2/retry_module)
+![retry_module](B2-2/retry_module.png)
 
 만약 과정중 에러가 발생했을 시 Retry 모듈에서 과정을 최대 2회 재시도하며 단순 서버의 
 과부하일 경우를 고려해 재시도 간격은 5분으로 설정했습니다. 
@@ -112,7 +115,7 @@ Gemini 모듈에서는 프롬프트를 통해 기사의 내용을 3줄요약 하
 ## 노션 데이터베이스 
  
 
-![notion](notion_light)
+![notion](notion_light.png)
 
 노션 데이터베이스는 기사제목, 기사 발행 일시, 기사 요약문, 원문 링크 
 그리고 노션 갱신 시간으로 이루어져 있으며 갱신 시간을 통해 정확히 언제 수집된  
