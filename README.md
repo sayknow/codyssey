@@ -86,7 +86,7 @@ Gemini 모듈에서는 프롬프트를 통해 기사의 내용을 3줄요약 하
 기사의 성격을 분류한다. (※ 보너스 과제) 
 
  
-![notion_module_masking](B2-2/notion_module.png)
+![notion_module_masking](B2-2/notion_module_masking.png)
  
 
 노션 모듈에서 요약된 기사 내용과 기사 제목, 원문 링크 등 필요한 내용들을   
